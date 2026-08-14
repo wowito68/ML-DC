@@ -1,0 +1,24 @@
+# Configuracion base para un proyecto/dataset.
+# Copia este archivo como config/<nombre_proyecto>.yaml y ajusta los valores.
+
+project:
+  name: ejemplo
+  description: Pipeline de ejemplo para analisis de datos y machine learning.
+
+paths:
+  raw_data: data/raw/ejemplo
+  interim_data: data/interim/ejemplo
+  processed_data: data/processed/ejemplo
+  models: models/ejemplo
+  reports: reports/ejemplo
+  figures: reports/ejemplo/figures
+
+data:
+  target: null
+  id_column: null
+  test_size: 0.2
+  random_state: 42
+
+model:
+  type: null
+  parameters: {}

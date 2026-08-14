@@ -1,0 +1,48 @@
+# Datos
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Notebooks (salidas/cache)
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Modelos y artefactos
+models/*
+!models/.gitkeep
+
+# Reports
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Entornos
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Builds / packaging
+build/
+dist/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Misc
+.DS_Store
+*.log

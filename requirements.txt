@@ -1,0 +1,25 @@
+# Core
+numpy
+pandas
+
+# Ciencia de datos / ML
+scikit-learn
+scipy
+
+# Visualización
+matplotlib
+seaborn
+
+# Jupyter
+jupyter
+jupyterlab
+ipykernel
+nbformat
+
+# Utilidades
+joblib
+pyyaml
+tqdm
+
+# Testing
+pytest
